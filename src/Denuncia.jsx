@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from "react
 
 {/* VARIOS */ }
 import { FaUser } from "react-icons/fa";
-import PrevencionImage from "./imagenes/Prevencion.jpg";
+import Prevencion  from "./imagenes/Prevencion.jpg";
 import Stopncii from "./imagenes/stopncii.png";
 import Guardia from "./imagenes/guardiaNacional.png";
 import Veracruz from "./imagenes/veracruz.jpg";
@@ -92,7 +92,7 @@ function Denuncia() {
                 />
 
                 <img
-                    src={PrevencionImage} /* Reemplaza por la ruta de tu segunda imagen */
+                    src={Prevencion } /* Reemplaza por la ruta de tu segunda imagen */
                     alt="Foto de persona"
                     className="rounded-full shadow-md w-1/4 max-w-xs"
                 />
