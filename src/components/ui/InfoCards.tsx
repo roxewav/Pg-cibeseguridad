@@ -4,23 +4,23 @@ import React from "react";
 const cardData = [
   {
     title: "CIBERACOSO",
-    imageUrl: "/imagenes/ciberacoso.jpg", // Ruta de la imagen
+    imageUrl: "./imagenes/ciberacoso.jpg", // Ruta de la imagen
   },
   {
     title: "GROOMING",
-    imageUrl: "/imagenes/grooming.jpg", // Ruta de la imagen
+    imageUrl: "./imagenes/grooming.jpg", // Ruta de la imagen
   },
   {
     title: "PHISHING",
-    imageUrl: "/imagenes/phishing.jpg", // Ruta de la imagen
+    imageUrl: "./imagenes/phishing.jpg", // Ruta de la imagen
   },
   {
     title: "SEXTORSIÓN",
-    imageUrl: "/imagenes/sextorsion.jpg", // Ruta de la imagen
+    imageUrl: "./imagenes/sextorsion.jpg", // Ruta de la imagen
   },
   {
     title: "CRACKING",
-    imageUrl: "/imagenes/cracking.jpg", // Ruta de la imagen
+    imageUrl: "./imagenes/cracking.jpg", // Ruta de la imagen
   },
 ];
 
