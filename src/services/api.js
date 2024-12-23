@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api'; // Asegúrate de que esta URL coincide con tu backend
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api'; // Usa la variable de entorno o el valor por defecto
 
 // Función para iniciar sesión
 export const login = async (email, password) => {
